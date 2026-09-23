@@ -1,0 +1,9 @@
+.sites-runtime/
+.env
+.env.*
+*.tar.gz
+*.zip
+__pycache__/
+
+# Private deployment identity is not required for GitHub/local use.
+.openai/
