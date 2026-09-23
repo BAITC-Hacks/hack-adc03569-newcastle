@@ -14,11 +14,13 @@
     const button = document.getElementById('theme-toggle');
     if (button) {
       button.setAttribute('aria-checked', String(theme === 'dark'));
-      button.title = theme === 'dark' ? 'Включить светлую тему' : 'Включить тёмную тему';
-      document.getElementById('theme-label').textContent = theme === 'dark' ? 'Тёмная тема' : 'Светлая тема';
+      button.title = FirebirdI18n.t(theme === 'dark' ? 'enableLight' : 'enableDark');
+      button.setAttribute('aria-label', FirebirdI18n.t('dark'));
+      document.getElementById('theme-label').textContent = FirebirdI18n.t(theme === 'dark' ? 'dark' : 'light');
     }
   }
   apply(preference || (system.matches ? 'dark' : 'light'));
+  document.addEventListener('firebird:localechange', () => apply(root.dataset.theme));
   document.addEventListener('DOMContentLoaded', () => {
     apply(root.dataset.theme);
     document.getElementById('theme-toggle').addEventListener('click', () => {

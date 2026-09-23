@@ -6,46 +6,47 @@
   <meta name="description" content="Подберите до трёх event-подрядчиков из каталога по городу, дате, формату и бюджету. С конкретными объяснениями выбора.">
   <meta name="theme-color" content="#182823">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23182823'/%3E%3Cpath d='M10 25V7h15v4H14v4h9v4h-9v6z' fill='%23ee6835'/%3E%3C/svg%3E">
-  <script src="theme.js"></script>
+  <script src="i18n.js?v=3.1"></script>
+  <script src="theme.js?v=3"></script>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="theme.css">
-  <script src="data.js" defer></script><script src="engine.js" defer></script><script src="app.js" defer></script>
+  <link rel="stylesheet" href="theme.css?v=3">
+  <script src="data.js" defer></script><script src="engine.js" defer></script><script src="app.js?v=3" defer></script>
 </head>
 <body>
-  <header class="topbar"><a href="./" class="brand" aria-label="Firebird, главная"><span class="brand-mark">f</span>firebird<span class="brand-dot">.</span></a><span class="topbar-caption">Подрядчики для вашего события</span><div class="topbar-actions"><span class="demo-tag">Демо · 66 профилей</span><button id="theme-toggle" class="theme-toggle" type="button" role="switch" aria-label="Тёмная тема" aria-checked="false" title="Переключить тему"><svg class="theme-icon sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="theme-icon moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.7 13.2A8.8 8.8 0 0 1 10.8 3.3 8.8 8.8 0 1 0 20.7 13.2Z"/></svg><span id="theme-label">Светлая тема</span></button></div></header>
+  <header class="topbar"><a href="./" class="brand" aria-label="Firebird, главная" data-i18n-aria-label="home"><span class="brand-mark">f</span>firebird<span class="brand-dot">.</span></a><span class="topbar-caption" data-i18n="caption">Подрядчики для вашего события</span><div class="topbar-actions"><select id="locale-select" class="locale-select" aria-label="Язык интерфейса" data-i18n-aria-label="interfaceLanguage"><option value="kk" lang="kk">Қазақша</option><option value="ru" lang="ru">Русский</option><option value="en" lang="en">English</option></select><span class="demo-tag" data-i18n="demo">Демо · 66 профилей</span><button id="theme-toggle" class="theme-toggle" type="button" role="switch" aria-label="Тёмная тема" aria-checked="false" title="Переключить тему"><svg class="theme-icon sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="theme-icon moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.7 13.2A8.8 8.8 0 0 1 10.8 3.3 8.8 8.8 0 1 0 20.7 13.2Z"/></svg><span id="theme-label">Светлая тема</span></button></div></header>
   <main>
-    <section class="intro"><div class="intro-copy"><div class="eyebrow">ВАШЕ СОБЫТИЕ. ВАША КОМАНДА. ВАШ ВАУ-ЭФФЕКТ.</div><h1>Кого <span>пригласим?</span></h1><p>До трёх вариантов из вашего каталога — с причинами выбора.</p></div><div class="intro-note"><span>01 — 03</span><p>Только те, кто проходит<br>по вашим условиям</p></div></section>
+    <section class="intro"><div class="intro-copy"><div class="eyebrow" data-i18n="slogan">ВАШЕ СОБЫТИЕ. ВАША КОМАНДА. ВАШ ВАУ-ЭФФЕКТ.</div><h1><span class="heading-base" data-i18n="heading">Кого</span> <span data-i18n="headingAccent">пригласим?</span></h1><p data-i18n="intro">До трёх вариантов из вашего каталога — с причинами выбора.</p></div><div class="intro-note"><span>01 — 03</span><p data-i18n="introNote">Только те, кто проходит<br>по вашим условиям</p></div></section>
     <div class="workspace">
       <aside class="request-panel">
-        <form id="request-form">
-          <div class="panel-heading"><h2>Ваше мероприятие</h2><span class="step-label">01</span></div>
-          <label for="city">Город</label><select id="city" name="city" required></select>
-          <label for="date">Дата мероприятия</label><input id="date" name="date" type="date" required min="2026-09-23" max="2026-12-31" value="2026-10-10" aria-describedby="calendar-help"><span class="field-help" id="calendar-help">Календарь: 23.09–31.12.2026</span>
-          <label for="format">Формат</label><select id="format" name="format" required></select>
-          <label for="category">Кого ищем</label><select id="category" name="category" required></select>
-          <label for="budget">Бюджет на одного подрядчика</label><div class="input-suffix"><input id="budget" name="budget" type="number" min="1" max="1000000000" step="any" required value="1500000" inputmode="numeric"><span>₸</span></div>
-          <details class="extra-fields"><summary>Язык, длительность и пожелания <span>+</span></summary><div class="extra-inner"><label for="language">Язык работы</label><select id="language" name="language"><option value="">Любой</option></select><label for="hours">Длительность, часов</label><input id="hours" name="hours" type="number" min="0.5" max="24" step="0.5" placeholder="Не важна"><label for="wishes">Пожелания к стилю</label><textarea id="wishes" name="wishes" rows="3" maxlength="240" placeholder="Например: юмор, импровизация" aria-describedby="wishes-help"></textarea><span class="field-help" id="wishes-help">Совпадения слов в описании влияют на порядок, но не исключают варианты.</span></div></details>
-          <button type="submit" class="primary-button">Подобрать подрядчиков <span aria-hidden="true">↗</span></button>
-          <p class="form-note">Цены указаны «от» за мероприятие.<br>Итоговую стоимость нужно уточнить.</p>
+        <form id="request-form" novalidate>
+          <div class="panel-heading"><h2 data-i18n="event">Ваше мероприятие</h2><span class="step-label">01</span></div>
+          <label for="city" data-i18n="city">Город</label><select id="city" name="city" required></select>
+          <label for="date" data-i18n="date">Дата мероприятия</label><input id="date" name="date" type="date" required min="2026-09-23" max="2026-12-31" value="2026-10-10" aria-describedby="calendar-help"><span class="field-help" id="calendar-help" data-i18n="calendar">Календарь: 23.09–31.12.2026</span>
+          <label for="format" data-i18n="format">Формат</label><select id="format" name="format" required></select>
+          <label for="category" data-i18n="category">Кого ищем</label><select id="category" name="category" required></select>
+          <label for="budget" data-i18n="budget">Бюджет на одного подрядчика</label><div class="input-suffix"><input id="budget" name="budget" type="number" min="1" max="1000000000" step="any" required value="1500000" inputmode="numeric"><span>₸</span></div>
+          <details class="extra-fields"><summary><span data-i18n="extra">Язык, длительность и пожелания</span> <span>+</span></summary><div class="extra-inner"><label for="language" data-i18n="workLanguage">Язык работы</label><select id="language" name="language"><option value="" data-i18n="any">Любой</option></select><label for="hours" data-i18n="hours">Длительность, часов</label><input id="hours" name="hours" type="number" min="0.5" max="24" step="0.5" placeholder="Не важна" data-i18n-placeholder="hoursPlaceholder"><label for="wishes" data-i18n="wishes">Пожелания к стилю</label><textarea id="wishes" name="wishes" rows="3" maxlength="240" placeholder="Например: юмор, импровизация" data-i18n-placeholder="wishesPlaceholder" aria-describedby="wishes-help"></textarea><span class="field-help" id="wishes-help" data-i18n="wishesHelp">Совпадения слов в описании влияют на порядок, но не исключают варианты.</span></div></details>
+          <button type="submit" class="primary-button"><span data-i18n="submit">Подобрать подрядчиков</span> <span aria-hidden="true">↗</span></button>
+          <p class="form-note" data-i18n="priceNote">Цены указаны «от» за мероприятие.<br>Итоговую стоимость нужно уточнить.</p>
           <p id="form-error" class="form-error" role="alert" hidden></p>
         </form>
-        <div class="dataset-note"><span class="small-symbol" aria-hidden="true">◈</span><p>Каталог хакатона<br><span>Имена анонимизированы. Данные и занятость предназначены для демо.</span></p></div>
+        <div class="dataset-note"><span class="small-symbol" aria-hidden="true">◈</span><p><b data-i18n="catalog">Каталог хакатона</b><br><span data-i18n="catalogNote">Имена анонимизированы. Данные и занятость предназначены для демо.</span></p></div>
       </aside>
-      <section class="results-panel" aria-label="Результаты подбора">
-        <div class="scenarios"><span>Попробуйте</span><div id="scenarios"></div></div>
-        <div class="results-heading"><div><div class="eyebrow">ВАША КОРОТКАЯ ПОДБОРКА</div><h2 id="result-title">Подбираем варианты</h2></div><span id="result-number" class="result-number">03</span></div>
+      <section class="results-panel" aria-label="Результаты подбора" data-i18n-aria-label="results">
+        <div class="scenarios"><span data-i18n="try">Попробуйте</span><div id="scenarios"></div></div>
+        <div class="results-heading"><div><div class="eyebrow" data-i18n="shortlist">ВАША КОРОТКАЯ ПОДБОРКА</div><h2 id="result-title">Подбираем варианты</h2></div><span id="result-number" class="result-number">03</span></div>
         <p id="result-summary" class="result-summary" role="status" aria-live="polite"></p>
-        <p id="stale-note" class="stale-note" hidden>Условия изменены. Нажмите «Подобрать подрядчиков», чтобы обновить результат.</p>
+        <p id="stale-note" class="stale-note" hidden data-i18n="stale">Условия изменены. Нажмите «Подобрать подрядчиков», чтобы обновить результат.</p>
         <div id="date-change" class="date-change" hidden></div>
         <div id="cards"></div>
         <div id="empty-state" class="empty-state" hidden></div>
         <div id="diagnostics" class="diagnostics"></div>
         <div id="suggestions" class="suggestions"></div>
-        <details class="method"><summary>Как получилась эта подборка <span aria-hidden="true">↗</span></summary><div><p>Сначала проверяем город, категорию, дату, бюджет и формат. Язык и длительность становятся обязательными, если вы их указали. Занятые подрядчики исключаются, в том числе площадки.</p><p>Среди подходящих сначала идут профили с совпадениями слов из пожеланий, затем — из формата события. Более редкие слова имеют больший вес. При равенстве выбираем меньшую начальную цену, затем идентификатор профиля. Один запрос всегда даёт один порядок.</p><p>Объяснения состоят из проверенных полей и цитаты из описания. Это локальный алгоритм без языковой модели; он не распознаёт смысл отрицаний. Наличие даты в календаре не заменяет подтверждение подрядчика. «Без привязки к часам» означает, что присутствие на площадке не требуется.</p><p>В исходных данных 53 анонимизированных и 13 синтетических профилей. У 8 профилей город и у 18 цена дополнены при подготовке каталога. Эти поля отмечены на карточках. Новые профили не добавлялись.</p></div></details>
+        <details class="method"><summary><span data-i18n="method">Как получилась эта подборка</span> <span aria-hidden="true">↗</span></summary><div><p data-i18n="method1">Сначала проверяем город, категорию, дату, бюджет и формат. Язык и длительность становятся обязательными, если вы их указали. Занятые подрядчики исключаются, в том числе площадки.</p><p data-i18n="method2">Среди подходящих сначала идут профили с совпадениями слов из пожеланий, затем — из формата события. Более редкие слова имеют больший вес. При равенстве выбираем меньшую начальную цену, затем идентификатор профиля. Один запрос всегда даёт один порядок.</p><p data-i18n="method3">Объяснения состоят из проверенных полей и цитаты из описания. Это локальный алгоритм без языковой модели; он не распознаёт смысл отрицаний. Наличие даты в календаре не заменяет подтверждение подрядчика. «Без привязки к часам» означает, что присутствие на площадке не требуется.</p><p data-i18n="method4">В исходных данных 53 анонимизированных и 13 синтетических профилей. У 8 профилей город и у 18 цена дополнены при подготовке каталога. Эти поля отмечены на карточках. Новые профили не добавлялись.</p></div></details>
       </section>
     </div>
   </main>
-  <footer><span class="footer-brand">firebird.</span><span>Умный выбор начинается с понятных причин.</span><span>HackAlem · 2026</span></footer>
+  <footer><span class="footer-brand">firebird.</span><span data-i18n="footer">Умный выбор начинается с понятных причин.</span><span>HackAlem · 2026</span></footer>
   <noscript><p>Для подбора подрядчиков включите JavaScript в браузере.</p></noscript>
 </body>
 </html>
