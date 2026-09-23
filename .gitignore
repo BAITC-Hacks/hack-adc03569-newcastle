@@ -7,3 +7,4 @@ __pycache__/
 
 # Private deployment identity is not required for GitHub/local use.
 .openai/
+/QALA_LAB_HackAlem/
