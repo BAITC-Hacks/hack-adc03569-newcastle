@@ -1,0 +1,323 @@
+[
+  {
+    "check": "Three language buttons",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English page metadata",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English setting written to storage interface",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English empty state: audit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English empty state: ai",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English empty state: lab",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English empty state: compare",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Demo selection loaded",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English labels: overview",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English labels: catalog",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English labels: compare",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English labels: audit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English labels: ai",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English labels: lab",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English labels: about",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English calculation modal",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English quick question",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English explanation",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Explain request sends en",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Offline mode labelled",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Explanation switches to kk",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Decisions preserved for kk",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Explanation switches to ru",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Decisions preserved for ru",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Explanation switches to en",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Decisions preserved for en",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Language switching issues no AI requests",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English restored from storage stub on reinitialization",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Scenario restored from storage stub on reinitialization",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English sensitivity result",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English print report",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "English validation error",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: kk/1440",
+    "passed": true,
+    "detail": {
+      "scroll": 1440,
+      "viewport": 1440
+    }
+  },
+  {
+    "check": "Language buttons visible: kk/1440",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: kk/1024",
+    "passed": true,
+    "detail": {
+      "scroll": 1024,
+      "viewport": 1024
+    }
+  },
+  {
+    "check": "Language buttons visible: kk/1024",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: kk/390",
+    "passed": true,
+    "detail": {
+      "scroll": 390,
+      "viewport": 390
+    }
+  },
+  {
+    "check": "Language buttons visible: kk/390",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: kk/320",
+    "passed": true,
+    "detail": {
+      "scroll": 320,
+      "viewport": 320
+    }
+  },
+  {
+    "check": "Language buttons visible: kk/320",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: ru/1440",
+    "passed": true,
+    "detail": {
+      "scroll": 1440,
+      "viewport": 1440
+    }
+  },
+  {
+    "check": "Language buttons visible: ru/1440",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: ru/1024",
+    "passed": true,
+    "detail": {
+      "scroll": 1024,
+      "viewport": 1024
+    }
+  },
+  {
+    "check": "Language buttons visible: ru/1024",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: ru/390",
+    "passed": true,
+    "detail": {
+      "scroll": 390,
+      "viewport": 390
+    }
+  },
+  {
+    "check": "Language buttons visible: ru/390",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: ru/320",
+    "passed": true,
+    "detail": {
+      "scroll": 320,
+      "viewport": 320
+    }
+  },
+  {
+    "check": "Language buttons visible: ru/320",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: en/1440",
+    "passed": true,
+    "detail": {
+      "scroll": 1440,
+      "viewport": 1440
+    }
+  },
+  {
+    "check": "Language buttons visible: en/1440",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: en/1024",
+    "passed": true,
+    "detail": {
+      "scroll": 1024,
+      "viewport": 1024
+    }
+  },
+  {
+    "check": "Language buttons visible: en/1024",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: en/390",
+    "passed": true,
+    "detail": {
+      "scroll": 390,
+      "viewport": 390
+    }
+  },
+  {
+    "check": "Language buttons visible: en/390",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No horizontal overflow: en/320",
+    "passed": true,
+    "detail": {
+      "scroll": 320,
+      "viewport": 320
+    }
+  },
+  {
+    "check": "Language buttons visible: en/320",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "No browser JS errors",
+    "passed": true,
+    "detail": []
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "method": "Managed Chromium local-asset harness + urllib bridge to real localhost HTTP API; native navigation blocked by environment policy",
+  "checks": [
+    {
+      "check": "Initial state clearly distinguished from a completed scenario",
+      "passed": true
+    },
+    {
+      "check": "Cell trace contains exact lag arithmetic",
+      "passed": true
+    },
+    {
+      "check": "Sensitivity shows changed school cell",
+      "passed": true
+    },
+    {
+      "check": "Offline explanation honestly labeled",
+      "passed": true
+    },
+    {
+      "check": "Scenario save in active page state",
+      "passed": true
+    },
+    {
+      "check": "Four decisions do not receive a scenario score",
+      "passed": true
+    },
+    {
+      "check": "Changed district recomputes full scenario",
+      "passed": true
+    },
+    {
+      "check": "A/B comparison displays changed cells",
+      "passed": true
+    },
+    {
+      "check": "Russian toggle",
+      "passed": true
+    },
+    {
+      "check": "Print report contains all 50 final values",
+      "passed": true
+    },
+    {
+      "check": "No root horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "check": "No root horizontal overflow at 768px",
+      "passed": true
+    },
+    {
+      "check": "No root horizontal overflow at 1280px",
+      "passed": true
+    },
+    {
+      "check": "No root horizontal overflow at 1512px",
+      "passed": true
+    },
+    {
+      "check": "No uncaught JavaScript errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "count": 15
+}

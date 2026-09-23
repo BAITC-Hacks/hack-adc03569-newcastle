@@ -1,0 +1,159 @@
+test_all_facts_bilingual (test_ai.EvidenceTests.test_all_facts_bilingual) ... ok
+test_all_rendered_sentences_from_facts (test_ai.EvidenceTests.test_all_rendered_sentences_from_facts) ... ok
+test_empty_plan_rejected (test_ai.EvidenceTests.test_empty_plan_rejected) ... ok
+test_extra_free_text_rejected (test_ai.EvidenceTests.test_extra_free_text_rejected) ... ok
+test_http_401_fallback (test_ai.EvidenceTests.test_http_401_fallback) ... ok
+test_language_validation (test_ai.EvidenceTests.test_language_validation) ... ok
+test_limits_always_included (test_ai.EvidenceTests.test_limits_always_included) ... ok
+test_m11_tradeoff_cannot_be_omitted (test_ai.EvidenceTests.test_m11_tradeoff_cannot_be_omitted) ... ok
+test_mock_live_path (test_ai.EvidenceTests.test_mock_live_path) ... ok
+test_mock_refusal_falls_closed (test_ai.EvidenceTests.test_mock_refusal_falls_closed) ... ok
+test_mock_responses_request_shape (test_ai.EvidenceTests.test_mock_responses_request_shape) ... ok
+test_mock_unknown_provider_id_rejected (test_ai.EvidenceTests.test_mock_unknown_provider_id_rejected) ... ok
+test_offline_label (test_ai.EvidenceTests.test_offline_label) ... ok
+test_offline_timing_question (test_ai.EvidenceTests.test_offline_timing_question) ... ok
+test_provider_error_fallback (test_ai.EvidenceTests.test_provider_error_fallback) ... ok
+test_question_length (test_ai.EvidenceTests.test_question_length) ... ok
+test_question_type (test_ai.EvidenceTests.test_question_type) ... ok
+test_template_ids_known (test_ai.EvidenceTests.test_template_ids_known) ... ok
+test_timeout_fallback (test_ai.EvidenceTests.test_timeout_fallback) ... ok
+test_unknown_id_rejected (test_ai.EvidenceTests.test_unknown_id_rejected) ... ok
+test_unrecognized_heading_rejected (test_ai.EvidenceTests.test_unrecognized_heading_rejected) ... ok
+test_baseline_average (test_engine.ArithmeticTests.test_baseline_average) ... ok
+test_baseline_exact (test_engine.ArithmeticTests.test_baseline_exact) ... ok
+test_city_measure_all_five (test_engine.ArithmeticTests.test_city_measure_all_five) ... ok
+test_clipping_after_all_additions (test_engine.ArithmeticTests.test_clipping_after_all_additions) ... ok
+test_clipping_both_ends (test_engine.ArithmeticTests.test_clipping_both_ends) ... ok
+test_critical_39 (test_engine.ArithmeticTests.test_critical_39) ... ok
+test_critical_strictly_below_40 (test_engine.ArithmeticTests.test_critical_strictly_below_40) ... ok
+test_district_measure_only_target (test_engine.ArithmeticTests.test_district_measure_only_target) ... ok
+test_exact_decomposition (test_engine.ArithmeticTests.test_exact_decomposition) ... ok
+test_example_critical_zero (test_engine.ArithmeticTests.test_example_critical_zero) ... ok
+test_example_exact (test_engine.ArithmeticTests.test_example_exact) ... ok
+test_example_lag (test_engine.ArithmeticTests.test_example_lag) ... ok
+test_fifty_complete_ledger_rows (test_engine.ArithmeticTests.test_fifty_complete_ledger_rows) ... ok
+test_hash_changes_with_district (test_engine.ArithmeticTests.test_hash_changes_with_district) ... ok
+test_input_not_mutated (test_engine.ArithmeticTests.test_input_not_mutated) ... ok
+test_json_serializable (test_engine.ArithmeticTests.test_json_serializable) ... ok
+test_m10_m12_fixed_synergy (test_engine.ArithmeticTests.test_m10_m12_fixed_synergy) ... ok
+test_m11_negative_effect (test_engine.ArithmeticTests.test_m11_negative_effect) ... ok
+test_m1_m2_fixed_synergy (test_engine.ArithmeticTests.test_m1_m2_fixed_synergy) ... ok
+test_m5_m6_fixed_synergy (test_engine.ArithmeticTests.test_m5_m6_fixed_synergy) ... ok
+test_order_invariance_all_120 (test_engine.ArithmeticTests.test_order_invariance_all_120) ... ok
+test_passthrough_score_not_accepted (test_engine.ArithmeticTests.test_passthrough_score_not_accepted) ... ok
+test_randomized_1000_valid_scenarios (test_engine.ArithmeticTests.test_randomized_1000_valid_scenarios) ... ok
+test_synergy_not_other_districts (test_engine.ArithmeticTests.test_synergy_not_other_districts) ... ok
+test_compare_identical_zero (test_engine.ExtensionTests.test_compare_identical_zero) ... ok
+test_compare_rejects_invalid (test_engine.ExtensionTests.test_compare_rejects_invalid) ... ok
+test_compare_reversed_sign (test_engine.ExtensionTests.test_compare_reversed_sign) ... ok
+test_lab_does_not_mutate_official (test_engine.ExtensionTests.test_lab_does_not_mutate_official) ... ok
+test_lab_no_official_score (test_engine.ExtensionTests.test_lab_no_official_score) ... ok
+test_lab_one_delay_s1 (test_engine.ExtensionTests.test_lab_one_delay_s1) ... ok
+test_lab_rejects_bad_extra_lag (test_engine.ExtensionTests.test_lab_rejects_bad_extra_lag) ... ok
+test_lab_rejects_unselected_measure (test_engine.ExtensionTests.test_lab_rejects_unselected_measure) ... ok
+test_lab_zero_delay (test_engine.ExtensionTests.test_lab_zero_delay) ... ok
+test_catalog_dimensions (test_engine.SourceTests.test_catalog_dimensions) ... ok
+test_initial_district_reference_column (test_engine.SourceTests.test_initial_district_reference_column) ... ok
+test_original_word_numeric_tables (test_engine.SourceTests.test_original_word_numeric_tables) ... ok
+test_population_sum_exactly (test_engine.SourceTests.test_population_sum_exactly) ... ok
+test_weights_sum_exactly (test_engine.SourceTests.test_weights_sum_exactly) ... ok
+test_budget_exact_100 (test_engine.ValidationTests.test_budget_exact_100) ... ok
+test_budget_example (test_engine.ValidationTests.test_budget_example) ... ok
+test_budget_over (test_engine.ValidationTests.test_budget_over) ... ok
+test_category_limit (test_engine.ValidationTests.test_category_limit) ... ok
+test_city_district_forbidden (test_engine.ValidationTests.test_city_district_forbidden) ... ok
+test_city_null_forbidden (test_engine.ValidationTests.test_city_null_forbidden) ... ok
+test_district_wrong_type (test_engine.ValidationTests.test_district_wrong_type) ... ok
+test_duplicate_other_district (test_engine.ValidationTests.test_duplicate_other_district) ... ok
+test_empty_no_score (test_engine.ValidationTests.test_empty_no_score) ... ok
+test_example_valid (test_engine.ValidationTests.test_example_valid) ... ok
+test_four_no_score (test_engine.ValidationTests.test_four_no_score) ... ok
+test_m1_m3_any_district (test_engine.ValidationTests.test_m1_m3_any_district) ... ok
+test_m4_m7_different_district (test_engine.ValidationTests.test_m4_m7_different_district) ... ok
+test_m4_m7_same_district (test_engine.ValidationTests.test_m4_m7_same_district) ... ok
+test_m5_m13_different_district (test_engine.ValidationTests.test_m5_m13_different_district) ... ok
+test_m5_m13_same_district (test_engine.ValidationTests.test_m5_m13_same_district) ... ok
+test_malformed_items (test_engine.ValidationTests.test_malformed_items) ... ok
+test_missing_district (test_engine.ValidationTests.test_missing_district) ... ok
+test_non_list (test_engine.ValidationTests.test_non_list) ... ok
+test_partial_validation_not_scoring (test_engine.ValidationTests.test_partial_validation_not_scoring) ... ok
+test_six_no_score (test_engine.ValidationTests.test_six_no_score) ... ok
+test_three_categories_allowed (test_engine.ValidationTests.test_three_categories_allowed) ... ok
+test_unknown_district (test_engine.ValidationTests.test_unknown_district) ... ok
+test_unknown_measure (test_engine.ValidationTests.test_unknown_measure) ... ok
+test_very_large_list_rejected (test_engine.ValidationTests.test_very_large_list_rejected) ... ok
+test_bad_boolean (test_http.HTTPTests.test_bad_boolean) ... ok
+test_bad_json (test_http.HTTPTests.test_bad_json) ... ok
+test_bootstrap (test_http.HTTPTests.test_bootstrap) ... ok
+test_compare_endpoint (test_http.HTTPTests.test_compare_endpoint) ... ok
+test_cross_origin_denied (test_http.HTTPTests.test_cross_origin_denied) ... ok
+test_health (test_http.HTTPTests.test_health) ... ok
+test_host_rebinding_denied (test_http.HTTPTests.test_host_rebinding_denied) ... ok
+test_invalid_has_no_score (test_http.HTTPTests.test_invalid_has_no_score) ... ok
+test_large_body (test_http.HTTPTests.test_large_body) ... ok
+test_missing_endpoint (test_http.HTTPTests.test_missing_endpoint) ... ok
+test_no_env_file (test_http.HTTPTests.test_no_env_file) ... ok
+test_no_server_source (test_http.HTTPTests.test_no_server_source) ... ok
+test_no_traversal (test_http.HTTPTests.test_no_traversal) ... ok
+test_offline_endpoint (test_http.HTTPTests.test_offline_endpoint) ... ok
+test_security_headers (test_http.HTTPTests.test_security_headers) ... ok
+test_sensitivity_endpoint (test_http.HTTPTests.test_sensitivity_endpoint) ... ok
+test_simulate_valid (test_http.HTTPTests.test_simulate_valid) ... ok
+test_source_files_downloadable (test_http.HTTPTests.test_source_files_downloadable) ... ok
+test_static (test_http.HTTPTests.test_static) ... ok
+test_validation_endpoint (test_http.HTTPTests.test_validation_endpoint) ... ok
+test_wrong_content_type (test_http.HTTPTests.test_wrong_content_type) ... ok
+test_bootstrap_has_english_labels (test_localization.LocalizationHTTPTests.test_bootstrap_has_english_labels) ... ok
+test_english_explanation_endpoint (test_localization.LocalizationHTTPTests.test_english_explanation_endpoint) ... ok
+test_http_errors_include_three_languages (test_localization.LocalizationHTTPTests.test_http_errors_include_three_languages) ... ok
+test_validation_errors_include_english (test_localization.LocalizationHTTPTests.test_validation_errors_include_english) ... ok
+test_all_catalogue_names_have_three_languages (test_localization.LocalizationTests.test_all_catalogue_names_have_three_languages) ... ok
+test_all_categories_have_three_languages (test_localization.LocalizationTests.test_all_categories_have_three_languages) ... ok
+test_all_facts_have_three_languages (test_localization.LocalizationTests.test_all_facts_have_three_languages) ... ok
+test_english_mock_provider_payload (test_localization.LocalizationTests.test_english_mock_provider_payload) ... ok
+test_english_names_have_no_cyrillic (test_localization.LocalizationTests.test_english_names_have_no_cyrillic) ... ok
+test_english_provider_failure_has_localized_fallback (test_localization.LocalizationTests.test_english_provider_failure_has_localized_fallback) ... ok
+test_english_synergy_keywords (test_localization.LocalizationTests.test_english_synergy_keywords) ... ok
+test_english_timing_keywords (test_localization.LocalizationTests.test_english_timing_keywords) ... ok
+test_every_validation_error_has_english (test_localization.LocalizationTests.test_every_validation_error_has_english) ... ok
+test_generic_errors_are_trilingual (test_localization.LocalizationTests.test_generic_errors_are_trilingual) ... ok
+test_headings_have_three_languages (test_localization.LocalizationTests.test_headings_have_three_languages) ... ok
+test_kazakh_and_russian_responses_preserved (test_localization.LocalizationTests.test_kazakh_and_russian_responses_preserved) ... ok
+test_language_does_not_change_scenario_or_fact_ids (test_localization.LocalizationTests.test_language_does_not_change_scenario_or_fact_ids) ... ok
+test_offline_english_explanation (test_localization.LocalizationTests.test_offline_english_explanation) ... ok
+test_response_carries_switchable_translations (test_localization.LocalizationTests.test_response_carries_switchable_translations) ... ok
+test_unsupported_language_rejected (test_localization.LocalizationTests.test_unsupported_language_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 125 tests in 1.598s
+
+OK
+[QALA] "POST /api/validate HTTP/1.1" 400 -
+[QALA] "POST /api/simulate HTTP/1.1" 400 -
+[QALA] "GET /api/bootstrap HTTP/1.1" 200 -
+[QALA] "POST /api/compare HTTP/1.1" 200 -
+[QALA] "POST /api/simulate HTTP/1.1" 403 -
+[QALA] "GET /api/health HTTP/1.1" 200 -
+[QALA] "GET /api/health HTTP/1.1" 403 -
+[QALA] "POST /api/simulate HTTP/1.1" 422 -
+[QALA] "POST /api/simulate HTTP/1.1" 413 -
+[QALA] "POST /api/nonexistent HTTP/1.1" 404 -
+[QALA] "GET /.env HTTP/1.1" 404 -
+[QALA] "GET /server.py HTTP/1.1" 404 -
+[QALA] "GET /../server.py HTTP/1.1" 404 -
+[QALA] "POST /api/explain HTTP/1.1" 200 -
+[QALA] "GET / HTTP/1.1" 200 -
+[QALA] "POST /api/sensitivity HTTP/1.1" 200 -
+[QALA] "POST /api/simulate HTTP/1.1" 200 -
+[QALA] "GET /sources/brief.pdf HTTP/1.1" 200 -
+[QALA] "GET /sources/dataset.docx HTTP/1.1" 200 -
+[QALA] "GET / HTTP/1.1" 200 -
+[QALA] "GET /app.js HTTP/1.1" 200 -
+[QALA] "GET /style.css HTTP/1.1" 200 -
+[QALA] "GET /favicon.svg HTTP/1.1" 200 -
+[QALA] "POST /api/validate HTTP/1.1" 200 -
+[QALA] "POST /api/simulate HTTP/1.1" 415 -
+[QALA] "GET /api/bootstrap HTTP/1.1" 200 -
+[QALA] "POST /api/explain HTTP/1.1" 200 -
+[QALA] "GET /api/no-such-endpoint HTTP/1.1" 404 -
+[QALA] "POST /api/simulate HTTP/1.1" 422 -

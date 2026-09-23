@@ -1,0 +1,2 @@
+# No third-party Python packages are required to run the app or unit tests.
+# Python 3.11+; browser with ES2020, fetch, localStorage and SVG support.

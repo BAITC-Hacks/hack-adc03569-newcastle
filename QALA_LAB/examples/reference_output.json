@@ -1,0 +1,1228 @@
+{
+  "districts": [
+    {
+      "id": "esil",
+      "name": {
+        "kk": "Есіл",
+        "ru": "Есиль",
+        "en": "Esil"
+      },
+      "population_share": 0.27,
+      "before": {
+        "T1": 45.0,
+        "T2": 62.0,
+        "E1": 68.0,
+        "E2": 72.0,
+        "S1": 48.0,
+        "S2": 55.0,
+        "B1": 78.0,
+        "B2": 60.0,
+        "C1": 75.0,
+        "C2": 70.0
+      },
+      "after": {
+        "T1": 45.0,
+        "T2": 62.0,
+        "E1": 68.0,
+        "E2": 72.0,
+        "S1": 48.0,
+        "S2": 55.0,
+        "B1": 78.0,
+        "B2": 60.0,
+        "C1": 75.0,
+        "C2": 74.375
+      },
+      "delta": {
+        "T1": 0.0,
+        "T2": 0.0,
+        "E1": 0.0,
+        "E2": 0.0,
+        "S1": 0.0,
+        "S2": 0.0,
+        "B1": 0.0,
+        "B2": 0.0,
+        "C1": 0.0,
+        "C2": 4.375
+      },
+      "before_value": 62.99,
+      "value": 63.4275,
+      "value_delta": 0.4375
+    },
+    {
+      "id": "almaty",
+      "name": {
+        "kk": "Алматы",
+        "ru": "Алматы",
+        "en": "Almaty"
+      },
+      "population_share": 0.24,
+      "before": {
+        "T1": 40.0,
+        "T2": 75.0,
+        "E1": 50.0,
+        "E2": 55.0,
+        "S1": 60.0,
+        "S2": 65.0,
+        "B1": 62.0,
+        "B2": 52.0,
+        "C1": 50.0,
+        "C2": 60.0
+      },
+      "after": {
+        "T1": 40.0,
+        "T2": 75.0,
+        "E1": 50.0,
+        "E2": 55.0,
+        "S1": 60.0,
+        "S2": 65.0,
+        "B1": 62.0,
+        "B2": 52.0,
+        "C1": 50.0,
+        "C2": 64.375
+      },
+      "delta": {
+        "T1": 0.0,
+        "T2": 0.0,
+        "E1": 0.0,
+        "E2": 0.0,
+        "S1": 0.0,
+        "S2": 0.0,
+        "B1": 0.0,
+        "B2": 0.0,
+        "C1": 0.0,
+        "C2": 4.375
+      },
+      "before_value": 57.06,
+      "value": 57.4975,
+      "value_delta": 0.4375
+    },
+    {
+      "id": "saryarka",
+      "name": {
+        "kk": "Сарыарқа",
+        "ru": "Сарыарка",
+        "en": "Saryarka"
+      },
+      "population_share": 0.2,
+      "before": {
+        "T1": 50.0,
+        "T2": 70.0,
+        "E1": 42.0,
+        "E2": 40.0,
+        "S1": 62.0,
+        "S2": 68.0,
+        "B1": 58.0,
+        "B2": 55.0,
+        "C1": 45.0,
+        "C2": 55.0
+      },
+      "after": {
+        "T1": 50.0,
+        "T2": 70.0,
+        "E1": 42.0,
+        "E2": 48.75,
+        "S1": 62.0,
+        "S2": 68.0,
+        "B1": 58.0,
+        "B2": 55.0,
+        "C1": 47.5,
+        "C2": 59.375
+      },
+      "delta": {
+        "T1": 0.0,
+        "T2": 0.0,
+        "E1": 0.0,
+        "E2": 8.75,
+        "S1": 0.0,
+        "S2": 0.0,
+        "B1": 0.0,
+        "B2": 0.0,
+        "C1": 2.5,
+        "C2": 4.375
+      },
+      "before_value": 54.65,
+      "value": 56.3,
+      "value_delta": 1.65
+    },
+    {
+      "id": "baikonur",
+      "name": {
+        "kk": "Байқоңыр",
+        "ru": "Байконур",
+        "en": "Baikonur"
+      },
+      "population_share": 0.13,
+      "before": {
+        "T1": 52.0,
+        "T2": 68.0,
+        "E1": 55.0,
+        "E2": 50.0,
+        "S1": 58.0,
+        "S2": 60.0,
+        "B1": 52.0,
+        "B2": 58.0,
+        "C1": 55.0,
+        "C2": 58.0
+      },
+      "after": {
+        "T1": 52.0,
+        "T2": 68.0,
+        "E1": 55.0,
+        "E2": 50.0,
+        "S1": 58.0,
+        "S2": 60.0,
+        "B1": 52.0,
+        "B2": 58.0,
+        "C1": 55.0,
+        "C2": 62.375
+      },
+      "delta": {
+        "T1": 0.0,
+        "T2": 0.0,
+        "E1": 0.0,
+        "E2": 0.0,
+        "S1": 0.0,
+        "S2": 0.0,
+        "B1": 0.0,
+        "B2": 0.0,
+        "C1": 0.0,
+        "C2": 4.375
+      },
+      "before_value": 56.63,
+      "value": 57.0675,
+      "value_delta": 0.4375
+    },
+    {
+      "id": "nura",
+      "name": {
+        "kk": "Нұра",
+        "ru": "Нура",
+        "en": "Nura"
+      },
+      "population_share": 0.16,
+      "before": {
+        "T1": 55.0,
+        "T2": 40.0,
+        "E1": 45.0,
+        "E2": 65.0,
+        "S1": 38.0,
+        "S2": 35.0,
+        "B1": 55.0,
+        "B2": 50.0,
+        "C1": 60.0,
+        "C2": 50.0
+      },
+      "after": {
+        "T1": 55.0,
+        "T2": 40.0,
+        "E1": 45.0,
+        "E2": 65.0,
+        "S1": 48.0,
+        "S2": 43.75,
+        "B1": 67.5,
+        "B2": 51.75,
+        "C1": 60.0,
+        "C2": 54.375
+      },
+      "delta": {
+        "T1": 0.0,
+        "T2": 0.0,
+        "E1": 0.0,
+        "E2": 0.0,
+        "S1": 10.0,
+        "S2": 8.75,
+        "B1": 12.5,
+        "B2": 1.75,
+        "C1": 0.0,
+        "C2": 4.375
+      },
+      "before_value": 49.18,
+      "value": 52.9625,
+      "value_delta": 3.7825
+    }
+  ],
+  "ledger": [
+    {
+      "id": "cell_esil_T1",
+      "district_id": "esil",
+      "metric_id": "T1",
+      "before": 45.0,
+      "terms": [],
+      "raw_after": 45.0,
+      "clip_adjustment": 0.0,
+      "after": 45.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 4.5,
+      "critical": false,
+      "exact_after": "45"
+    },
+    {
+      "id": "cell_esil_T2",
+      "district_id": "esil",
+      "metric_id": "T2",
+      "before": 62.0,
+      "terms": [],
+      "raw_after": 62.0,
+      "clip_adjustment": 0.0,
+      "after": 62.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 6.2,
+      "critical": false,
+      "exact_after": "62"
+    },
+    {
+      "id": "cell_esil_E1",
+      "district_id": "esil",
+      "metric_id": "E1",
+      "before": 68.0,
+      "terms": [],
+      "raw_after": 68.0,
+      "clip_adjustment": 0.0,
+      "after": 68.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 6.12,
+      "critical": false,
+      "exact_after": "68"
+    },
+    {
+      "id": "cell_esil_E2",
+      "district_id": "esil",
+      "metric_id": "E2",
+      "before": 72.0,
+      "terms": [],
+      "raw_after": 72.0,
+      "clip_adjustment": 0.0,
+      "after": 72.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 7.92,
+      "critical": false,
+      "exact_after": "72"
+    },
+    {
+      "id": "cell_esil_S1",
+      "district_id": "esil",
+      "metric_id": "S1",
+      "before": 48.0,
+      "terms": [],
+      "raw_after": 48.0,
+      "clip_adjustment": 0.0,
+      "after": 48.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 5.28,
+      "critical": false,
+      "exact_after": "48"
+    },
+    {
+      "id": "cell_esil_S2",
+      "district_id": "esil",
+      "metric_id": "S2",
+      "before": 55.0,
+      "terms": [],
+      "raw_after": 55.0,
+      "clip_adjustment": 0.0,
+      "after": 55.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 6.05,
+      "critical": false,
+      "exact_after": "55"
+    },
+    {
+      "id": "cell_esil_B1",
+      "district_id": "esil",
+      "metric_id": "B1",
+      "before": 78.0,
+      "terms": [],
+      "raw_after": 78.0,
+      "clip_adjustment": 0.0,
+      "after": 78.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 7.02,
+      "critical": false,
+      "exact_after": "78"
+    },
+    {
+      "id": "cell_esil_B2",
+      "district_id": "esil",
+      "metric_id": "B2",
+      "before": 60.0,
+      "terms": [],
+      "raw_after": 60.0,
+      "clip_adjustment": 0.0,
+      "after": 60.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 5.4,
+      "critical": false,
+      "exact_after": "60"
+    },
+    {
+      "id": "cell_esil_C1",
+      "district_id": "esil",
+      "metric_id": "C1",
+      "before": 75.0,
+      "terms": [],
+      "raw_after": 75.0,
+      "clip_adjustment": 0.0,
+      "after": 75.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 7.5,
+      "critical": false,
+      "exact_after": "75"
+    },
+    {
+      "id": "cell_esil_C2",
+      "district_id": "esil",
+      "metric_id": "C2",
+      "before": 70.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M12",
+          "full": 5,
+          "lag": 1,
+          "factor": 0.875,
+          "delta": 4.375,
+          "source": "dataset:section-2"
+        }
+      ],
+      "raw_after": 74.375,
+      "clip_adjustment": 0.0,
+      "after": 74.375,
+      "delta": 4.375,
+      "weight": 0.1,
+      "weighted_after": 7.4375,
+      "critical": false,
+      "exact_after": "74.375"
+    },
+    {
+      "id": "cell_almaty_T1",
+      "district_id": "almaty",
+      "metric_id": "T1",
+      "before": 40.0,
+      "terms": [],
+      "raw_after": 40.0,
+      "clip_adjustment": 0.0,
+      "after": 40.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 4.0,
+      "critical": false,
+      "exact_after": "40"
+    },
+    {
+      "id": "cell_almaty_T2",
+      "district_id": "almaty",
+      "metric_id": "T2",
+      "before": 75.0,
+      "terms": [],
+      "raw_after": 75.0,
+      "clip_adjustment": 0.0,
+      "after": 75.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 7.5,
+      "critical": false,
+      "exact_after": "75"
+    },
+    {
+      "id": "cell_almaty_E1",
+      "district_id": "almaty",
+      "metric_id": "E1",
+      "before": 50.0,
+      "terms": [],
+      "raw_after": 50.0,
+      "clip_adjustment": 0.0,
+      "after": 50.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 4.5,
+      "critical": false,
+      "exact_after": "50"
+    },
+    {
+      "id": "cell_almaty_E2",
+      "district_id": "almaty",
+      "metric_id": "E2",
+      "before": 55.0,
+      "terms": [],
+      "raw_after": 55.0,
+      "clip_adjustment": 0.0,
+      "after": 55.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 6.05,
+      "critical": false,
+      "exact_after": "55"
+    },
+    {
+      "id": "cell_almaty_S1",
+      "district_id": "almaty",
+      "metric_id": "S1",
+      "before": 60.0,
+      "terms": [],
+      "raw_after": 60.0,
+      "clip_adjustment": 0.0,
+      "after": 60.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 6.6,
+      "critical": false,
+      "exact_after": "60"
+    },
+    {
+      "id": "cell_almaty_S2",
+      "district_id": "almaty",
+      "metric_id": "S2",
+      "before": 65.0,
+      "terms": [],
+      "raw_after": 65.0,
+      "clip_adjustment": 0.0,
+      "after": 65.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 7.15,
+      "critical": false,
+      "exact_after": "65"
+    },
+    {
+      "id": "cell_almaty_B1",
+      "district_id": "almaty",
+      "metric_id": "B1",
+      "before": 62.0,
+      "terms": [],
+      "raw_after": 62.0,
+      "clip_adjustment": 0.0,
+      "after": 62.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 5.58,
+      "critical": false,
+      "exact_after": "62"
+    },
+    {
+      "id": "cell_almaty_B2",
+      "district_id": "almaty",
+      "metric_id": "B2",
+      "before": 52.0,
+      "terms": [],
+      "raw_after": 52.0,
+      "clip_adjustment": 0.0,
+      "after": 52.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 4.68,
+      "critical": false,
+      "exact_after": "52"
+    },
+    {
+      "id": "cell_almaty_C1",
+      "district_id": "almaty",
+      "metric_id": "C1",
+      "before": 50.0,
+      "terms": [],
+      "raw_after": 50.0,
+      "clip_adjustment": 0.0,
+      "after": 50.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 5.0,
+      "critical": false,
+      "exact_after": "50"
+    },
+    {
+      "id": "cell_almaty_C2",
+      "district_id": "almaty",
+      "metric_id": "C2",
+      "before": 60.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M12",
+          "full": 5,
+          "lag": 1,
+          "factor": 0.875,
+          "delta": 4.375,
+          "source": "dataset:section-2"
+        }
+      ],
+      "raw_after": 64.375,
+      "clip_adjustment": 0.0,
+      "after": 64.375,
+      "delta": 4.375,
+      "weight": 0.1,
+      "weighted_after": 6.4375,
+      "critical": false,
+      "exact_after": "64.375"
+    },
+    {
+      "id": "cell_saryarka_T1",
+      "district_id": "saryarka",
+      "metric_id": "T1",
+      "before": 50.0,
+      "terms": [],
+      "raw_after": 50.0,
+      "clip_adjustment": 0.0,
+      "after": 50.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 5.0,
+      "critical": false,
+      "exact_after": "50"
+    },
+    {
+      "id": "cell_saryarka_T2",
+      "district_id": "saryarka",
+      "metric_id": "T2",
+      "before": 70.0,
+      "terms": [],
+      "raw_after": 70.0,
+      "clip_adjustment": 0.0,
+      "after": 70.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 7.0,
+      "critical": false,
+      "exact_after": "70"
+    },
+    {
+      "id": "cell_saryarka_E1",
+      "district_id": "saryarka",
+      "metric_id": "E1",
+      "before": 42.0,
+      "terms": [],
+      "raw_after": 42.0,
+      "clip_adjustment": 0.0,
+      "after": 42.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 3.78,
+      "critical": false,
+      "exact_after": "42"
+    },
+    {
+      "id": "cell_saryarka_E2",
+      "district_id": "saryarka",
+      "metric_id": "E2",
+      "before": 40.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M5",
+          "full": 14,
+          "lag": 3,
+          "factor": 0.625,
+          "delta": 8.75,
+          "source": "dataset:section-2"
+        }
+      ],
+      "raw_after": 48.75,
+      "clip_adjustment": 0.0,
+      "after": 48.75,
+      "delta": 8.75,
+      "weight": 0.11,
+      "weighted_after": 5.3625,
+      "critical": false,
+      "exact_after": "48.750"
+    },
+    {
+      "id": "cell_saryarka_S1",
+      "district_id": "saryarka",
+      "metric_id": "S1",
+      "before": 62.0,
+      "terms": [],
+      "raw_after": 62.0,
+      "clip_adjustment": 0.0,
+      "after": 62.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 6.82,
+      "critical": false,
+      "exact_after": "62"
+    },
+    {
+      "id": "cell_saryarka_S2",
+      "district_id": "saryarka",
+      "metric_id": "S2",
+      "before": 68.0,
+      "terms": [],
+      "raw_after": 68.0,
+      "clip_adjustment": 0.0,
+      "after": 68.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 7.48,
+      "critical": false,
+      "exact_after": "68"
+    },
+    {
+      "id": "cell_saryarka_B1",
+      "district_id": "saryarka",
+      "metric_id": "B1",
+      "before": 58.0,
+      "terms": [],
+      "raw_after": 58.0,
+      "clip_adjustment": 0.0,
+      "after": 58.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 5.22,
+      "critical": false,
+      "exact_after": "58"
+    },
+    {
+      "id": "cell_saryarka_B2",
+      "district_id": "saryarka",
+      "metric_id": "B2",
+      "before": 55.0,
+      "terms": [],
+      "raw_after": 55.0,
+      "clip_adjustment": 0.0,
+      "after": 55.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 4.95,
+      "critical": false,
+      "exact_after": "55"
+    },
+    {
+      "id": "cell_saryarka_C1",
+      "district_id": "saryarka",
+      "metric_id": "C1",
+      "before": 45.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M5",
+          "full": 4,
+          "lag": 3,
+          "factor": 0.625,
+          "delta": 2.5,
+          "source": "dataset:section-2"
+        }
+      ],
+      "raw_after": 47.5,
+      "clip_adjustment": 0.0,
+      "after": 47.5,
+      "delta": 2.5,
+      "weight": 0.1,
+      "weighted_after": 4.75,
+      "critical": false,
+      "exact_after": "47.500"
+    },
+    {
+      "id": "cell_saryarka_C2",
+      "district_id": "saryarka",
+      "metric_id": "C2",
+      "before": 55.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M12",
+          "full": 5,
+          "lag": 1,
+          "factor": 0.875,
+          "delta": 4.375,
+          "source": "dataset:section-2"
+        }
+      ],
+      "raw_after": 59.375,
+      "clip_adjustment": 0.0,
+      "after": 59.375,
+      "delta": 4.375,
+      "weight": 0.1,
+      "weighted_after": 5.9375,
+      "critical": false,
+      "exact_after": "59.375"
+    },
+    {
+      "id": "cell_baikonur_T1",
+      "district_id": "baikonur",
+      "metric_id": "T1",
+      "before": 52.0,
+      "terms": [],
+      "raw_after": 52.0,
+      "clip_adjustment": 0.0,
+      "after": 52.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 5.2,
+      "critical": false,
+      "exact_after": "52"
+    },
+    {
+      "id": "cell_baikonur_T2",
+      "district_id": "baikonur",
+      "metric_id": "T2",
+      "before": 68.0,
+      "terms": [],
+      "raw_after": 68.0,
+      "clip_adjustment": 0.0,
+      "after": 68.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 6.8,
+      "critical": false,
+      "exact_after": "68"
+    },
+    {
+      "id": "cell_baikonur_E1",
+      "district_id": "baikonur",
+      "metric_id": "E1",
+      "before": 55.0,
+      "terms": [],
+      "raw_after": 55.0,
+      "clip_adjustment": 0.0,
+      "after": 55.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 4.95,
+      "critical": false,
+      "exact_after": "55"
+    },
+    {
+      "id": "cell_baikonur_E2",
+      "district_id": "baikonur",
+      "metric_id": "E2",
+      "before": 50.0,
+      "terms": [],
+      "raw_after": 50.0,
+      "clip_adjustment": 0.0,
+      "after": 50.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 5.5,
+      "critical": false,
+      "exact_after": "50"
+    },
+    {
+      "id": "cell_baikonur_S1",
+      "district_id": "baikonur",
+      "metric_id": "S1",
+      "before": 58.0,
+      "terms": [],
+      "raw_after": 58.0,
+      "clip_adjustment": 0.0,
+      "after": 58.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 6.38,
+      "critical": false,
+      "exact_after": "58"
+    },
+    {
+      "id": "cell_baikonur_S2",
+      "district_id": "baikonur",
+      "metric_id": "S2",
+      "before": 60.0,
+      "terms": [],
+      "raw_after": 60.0,
+      "clip_adjustment": 0.0,
+      "after": 60.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 6.6,
+      "critical": false,
+      "exact_after": "60"
+    },
+    {
+      "id": "cell_baikonur_B1",
+      "district_id": "baikonur",
+      "metric_id": "B1",
+      "before": 52.0,
+      "terms": [],
+      "raw_after": 52.0,
+      "clip_adjustment": 0.0,
+      "after": 52.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 4.68,
+      "critical": false,
+      "exact_after": "52"
+    },
+    {
+      "id": "cell_baikonur_B2",
+      "district_id": "baikonur",
+      "metric_id": "B2",
+      "before": 58.0,
+      "terms": [],
+      "raw_after": 58.0,
+      "clip_adjustment": 0.0,
+      "after": 58.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 5.22,
+      "critical": false,
+      "exact_after": "58"
+    },
+    {
+      "id": "cell_baikonur_C1",
+      "district_id": "baikonur",
+      "metric_id": "C1",
+      "before": 55.0,
+      "terms": [],
+      "raw_after": 55.0,
+      "clip_adjustment": 0.0,
+      "after": 55.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 5.5,
+      "critical": false,
+      "exact_after": "55"
+    },
+    {
+      "id": "cell_baikonur_C2",
+      "district_id": "baikonur",
+      "metric_id": "C2",
+      "before": 58.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M12",
+          "full": 5,
+          "lag": 1,
+          "factor": 0.875,
+          "delta": 4.375,
+          "source": "dataset:section-2"
+        }
+      ],
+      "raw_after": 62.375,
+      "clip_adjustment": 0.0,
+      "after": 62.375,
+      "delta": 4.375,
+      "weight": 0.1,
+      "weighted_after": 6.2375,
+      "critical": false,
+      "exact_after": "62.375"
+    },
+    {
+      "id": "cell_nura_T1",
+      "district_id": "nura",
+      "metric_id": "T1",
+      "before": 55.0,
+      "terms": [],
+      "raw_after": 55.0,
+      "clip_adjustment": 0.0,
+      "after": 55.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 5.5,
+      "critical": false,
+      "exact_after": "55"
+    },
+    {
+      "id": "cell_nura_T2",
+      "district_id": "nura",
+      "metric_id": "T2",
+      "before": 40.0,
+      "terms": [],
+      "raw_after": 40.0,
+      "clip_adjustment": 0.0,
+      "after": 40.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 4.0,
+      "critical": false,
+      "exact_after": "40"
+    },
+    {
+      "id": "cell_nura_E1",
+      "district_id": "nura",
+      "metric_id": "E1",
+      "before": 45.0,
+      "terms": [],
+      "raw_after": 45.0,
+      "clip_adjustment": 0.0,
+      "after": 45.0,
+      "delta": 0.0,
+      "weight": 0.09,
+      "weighted_after": 4.05,
+      "critical": false,
+      "exact_after": "45"
+    },
+    {
+      "id": "cell_nura_E2",
+      "district_id": "nura",
+      "metric_id": "E2",
+      "before": 65.0,
+      "terms": [],
+      "raw_after": 65.0,
+      "clip_adjustment": 0.0,
+      "after": 65.0,
+      "delta": 0.0,
+      "weight": 0.11,
+      "weighted_after": 7.15,
+      "critical": false,
+      "exact_after": "65"
+    },
+    {
+      "id": "cell_nura_S1",
+      "district_id": "nura",
+      "metric_id": "S1",
+      "before": 38.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M7",
+          "full": 16,
+          "lag": 3,
+          "factor": 0.625,
+          "delta": 10.0,
+          "source": "dataset:section-2"
+        }
+      ],
+      "raw_after": 48.0,
+      "clip_adjustment": 0.0,
+      "after": 48.0,
+      "delta": 10.0,
+      "weight": 0.11,
+      "weighted_after": 5.28,
+      "critical": false,
+      "exact_after": "48.000"
+    },
+    {
+      "id": "cell_nura_S2",
+      "district_id": "nura",
+      "metric_id": "S2",
+      "before": 35.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M8",
+          "full": 14,
+          "lag": 3,
+          "factor": 0.625,
+          "delta": 8.75,
+          "source": "dataset:section-2"
+        }
+      ],
+      "raw_after": 43.75,
+      "clip_adjustment": 0.0,
+      "after": 43.75,
+      "delta": 8.75,
+      "weight": 0.11,
+      "weighted_after": 4.8125,
+      "critical": false,
+      "exact_after": "43.750"
+    },
+    {
+      "id": "cell_nura_B1",
+      "district_id": "nura",
+      "metric_id": "B1",
+      "before": 55.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M10",
+          "full": 12,
+          "lag": 1,
+          "factor": 0.875,
+          "delta": 10.5,
+          "source": "dataset:section-2"
+        },
+        {
+          "kind": "synergy",
+          "pair": [
+            "M10",
+            "M12"
+          ],
+          "delta": 2.0,
+          "source": "dataset:section-2-synergies"
+        }
+      ],
+      "raw_after": 67.5,
+      "clip_adjustment": 0.0,
+      "after": 67.5,
+      "delta": 12.5,
+      "weight": 0.09,
+      "weighted_after": 6.075,
+      "critical": false,
+      "exact_after": "67.500"
+    },
+    {
+      "id": "cell_nura_B2",
+      "district_id": "nura",
+      "metric_id": "B2",
+      "before": 50.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M10",
+          "full": 2,
+          "lag": 1,
+          "factor": 0.875,
+          "delta": 1.75,
+          "source": "dataset:section-2"
+        }
+      ],
+      "raw_after": 51.75,
+      "clip_adjustment": 0.0,
+      "after": 51.75,
+      "delta": 1.75,
+      "weight": 0.09,
+      "weighted_after": 4.6575,
+      "critical": false,
+      "exact_after": "51.750"
+    },
+    {
+      "id": "cell_nura_C1",
+      "district_id": "nura",
+      "metric_id": "C1",
+      "before": 60.0,
+      "terms": [],
+      "raw_after": 60.0,
+      "clip_adjustment": 0.0,
+      "after": 60.0,
+      "delta": 0.0,
+      "weight": 0.1,
+      "weighted_after": 6.0,
+      "critical": false,
+      "exact_after": "60"
+    },
+    {
+      "id": "cell_nura_C2",
+      "district_id": "nura",
+      "metric_id": "C2",
+      "before": 50.0,
+      "terms": [
+        {
+          "kind": "measure",
+          "measure_id": "M12",
+          "full": 5,
+          "lag": 1,
+          "factor": 0.875,
+          "delta": 4.375,
+          "source": "dataset:section-2"
+        }
+      ],
+      "raw_after": 54.375,
+      "clip_adjustment": 0.0,
+      "after": 54.375,
+      "delta": 4.375,
+      "weight": 0.1,
+      "weighted_after": 5.4375,
+      "critical": false,
+      "exact_after": "54.375"
+    }
+  ],
+  "synergies": [
+    {
+      "pair": [
+        "M10",
+        "M12"
+      ],
+      "district_id": "nura",
+      "effects": {
+        "B1": 2
+      }
+    }
+  ],
+  "summary": {
+    "score": 56.54307,
+    "exact_score": "56.54307000",
+    "average": 58.0776,
+    "minimum": 52.9625,
+    "critical_count": 0,
+    "critical_cells": []
+  },
+  "kind": "official_synthetic_scenario",
+  "decisions": [
+    {
+      "measure_id": "M5",
+      "district_id": "saryarka"
+    },
+    {
+      "measure_id": "M7",
+      "district_id": "nura"
+    },
+    {
+      "measure_id": "M8",
+      "district_id": "nura"
+    },
+    {
+      "measure_id": "M10",
+      "district_id": "nura"
+    },
+    {
+      "measure_id": "M12"
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "complete": true,
+    "cost": 95,
+    "remaining": 5,
+    "count": 5,
+    "category_counts": {
+      "social": 2,
+      "safety": 1,
+      "services": 1,
+      "ecology": 1
+    },
+    "errors": []
+  },
+  "baseline": {
+    "score": 52.55768,
+    "exact_score": "52.55768",
+    "average": 56.8624,
+    "minimum": 49.18,
+    "critical_count": 2,
+    "critical_cells": [
+      {
+        "district_id": "nura",
+        "metric_id": "S1",
+        "value": 38.0
+      },
+      {
+        "district_id": "nura",
+        "metric_id": "S2",
+        "value": 35.0
+      }
+    ]
+  },
+  "score_delta": 3.98539,
+  "decomposition": {
+    "population_term": 0.85064,
+    "minimum_term": 1.13475,
+    "critical_term": 2.0
+  },
+  "passport": {
+    "engine_version": "1.1.0",
+    "engine_sha256": "c078899ec96170608d04b4e3fbaee9891fbd846b4d1ce88b1fae54fcbb80492a",
+    "dataset_sha256": "dab0094425bdfacf7fe477cbe985a4efd23d4cb83ca7dc2053fc90a2fa019a6b",
+    "decisions": [
+      {
+        "measure_id": "M5",
+        "district_id": "saryarka"
+      },
+      {
+        "measure_id": "M7",
+        "district_id": "nura"
+      },
+      {
+        "measure_id": "M8",
+        "district_id": "nura"
+      },
+      {
+        "measure_id": "M10",
+        "district_id": "nura"
+      },
+      {
+        "measure_id": "M12"
+      }
+    ],
+    "scenario_sha256": "e9769e37c964b51251b8a87841ca16c753b6216484bbd050520920798b9e0e67",
+    "short_id": "e9769e37c964",
+    "schema_version": 1,
+    "precision": "Decimal; no intermediate rounding",
+    "synthetic": true,
+    "signature": false
+  }
+}
